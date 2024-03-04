@@ -13,7 +13,13 @@
 .head-head{
     text-align: center;
 }
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 .logo_img{
-width: 20px;
-height: 20px;
+width: 100px;
+height: 100px;
 }
