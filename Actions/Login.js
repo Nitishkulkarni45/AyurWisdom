@@ -1,4 +1,7 @@
- const redirectToHome =()=>{
-    console.log("clicked");
-    window.location.href = "/Pages/Home.html";
- };
+//  const redirectToHome =()=>{
+//    console.log("pressed");
+//     window.location.href = "/Pages/Home.html";
+//  };
+
+
+ 

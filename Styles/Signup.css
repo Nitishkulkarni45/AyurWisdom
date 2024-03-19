@@ -33,6 +33,13 @@
     justify-content: center;
 }
 .logo_img{
-    width: 100px;
-    height: 100px;
+    position: relative;
+    bottom: 25px;
+    width: 200px;
+    height: 200px;
     }
+.main-in-form{
+    position: relative;
+        bottom: 75px;
+    }
+    
