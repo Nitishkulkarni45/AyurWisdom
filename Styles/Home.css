@@ -2,3 +2,40 @@
     height: 50px;
     width: 50px;
 }
+
+.search-but-1{
+    position: relative;
+    right: 510px;
+    width: 380px !important;
+}
+.search-but-2{
+    position: relative;
+    right: 510px;
+    /* width: 380px !important; */
+}
+.user{
+    height: 35px;
+    width: 35px;
+}
+
+.user-main-contents{
+    position: absolute;
+    top: 0;
+    left: -200px; /* Initially hide sidebar off the screen */
+    width: 200px;
+    height: 100%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    transition: left 0.3s ease;
+}
+
+.user-main-contents{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    }
+
+.user-main-contents a{
+    background-color: #ddd;
+}
