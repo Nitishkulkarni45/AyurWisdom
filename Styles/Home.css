@@ -55,16 +55,33 @@
 }
 
 .body-1{
+    border: 2px solid red;
     display: flex;
     flex-direction: row;
+    background-color: aqua !important;
+    border-radius: 13px;
 }
 
 .body-box{
+    display: inline-block;
+    position: relative;
     padding: 5px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 13px;
     margin: 5px 0px;
     width: 300px;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0) !important;
+    transform: perspective(1px) translateZ(0) !important;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s !important;
+    transition-duration: 0.3s !important;
+    -webkit-transition-property: transform !important;
+    transition-property: transform !important;
+}
+.body-box :hover, .body-box :focus, .body-box :active{
+    -webkit-transform: translateX(8px);
+    transform: perspective(1px) translateX(8px);
 }
 
 .body-box a{
@@ -80,3 +97,4 @@ color: black;
     width: 300px;
     margin-left: 30px;
 }
+
