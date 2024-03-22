@@ -61,14 +61,22 @@
 
 .body-box{
     padding: 5px;
-    /* border: 2px solid red; */
+    border: 2px solid red;
+    border-radius: 13px;
+    margin: 5px 0px;
+    width: 300px;
 }
 
 .body-box a{
 text-decoration: none;
 color: black;
+/* font-size: 600 !important; */
 }
 .body-1 li{
     margin-left: 10px;
 }
 
+.sideHr{
+    width: 300px;
+    margin-left: 30px;
+}
