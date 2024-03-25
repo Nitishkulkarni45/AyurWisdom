@@ -112,10 +112,36 @@
   width: 70px;
   border-radius: 50%;
   right: 10px;
-  top: 10px;
+  bottom: 10px;
   position: absolute;
 }
 .footer-chat-img{
   display: flex;
   flex-direction: row-reverse;
 }
+
+.middle-cont{
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 20px;
+  width: 50%;
+  margin:15px 15px;
+}
+
+.ayur-p{
+  text-decoration: none;
+  /* color: black; */
+}
+
+.middle-sub-cont{
+  display: flex;
+  flex-direction: row;
+}
+
+.middle-sub-cont img{
+  position: relative;
+border-radius: 10px;
+bottom: 15px;
+}
+
+
