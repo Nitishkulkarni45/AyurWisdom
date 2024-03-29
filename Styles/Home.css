@@ -117,15 +117,17 @@
 }
 .footer-chat-img{
   display: flex;
+  /* position: absolute; */
   flex-direction: row-reverse;
 }
 
-.middle-cont{
+.middle-left{
   border: 2px solid red;
   border-radius: 10px;
   padding: 20px;
   width: 50%;
   margin:15px 15px;
+  /* height: 100px; */
 }
 
 .ayur-p{
@@ -142,6 +144,15 @@
   position: relative;
 border-radius: 10px;
 bottom: 15px;
+}
+
+.middle-cont{
+  display: flex;
+  flex-direction: row;
+}
+
+.middle-right{
+  overflow: scroll;
 }
 
 
