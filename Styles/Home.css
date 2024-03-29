@@ -153,6 +153,21 @@ bottom: 15px;
 
 .middle-right{
   overflow: scroll;
+  height: 300px !important;
+  width: 550px;
+  margin: 10px 20px;
+}
+
+.list--a{
+display: flex !important;
+flex-direction: row;
+height: 130px;
+}
+
+.list-img{
+  height: 110px;
+  width: 235px;
 }
 
 
+ 
