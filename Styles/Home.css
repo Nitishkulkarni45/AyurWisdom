@@ -183,4 +183,39 @@ width: 695px !important;
 .list-content{
   margin: auto 15px;
 }
+
+.cardscontain{
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid red; */
+  height: 00px;
+  width: 100%;
+}
+
+.maincardtile{
+  height: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px 15px;
+  /* border: 2px solid green; */
+}
  
+.cardTile{
+  border: 2px solid yellow;
+  border-radius: 10px;
+  height: 350px;
+  width: 280px;
+  position: sticky;
+}
+
+.cardImg img{
+  position: absolute;
+  left: 15px;
+  top: 20px;
+  height: 180px;
+  width: 250px;
+}
+
