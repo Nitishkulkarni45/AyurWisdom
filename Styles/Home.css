@@ -193,7 +193,7 @@ width: 695px !important;
 }
 
 .maincardtile{
-  height: 350px;
+  height: 400px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -213,6 +213,7 @@ width: 695px !important;
 
 .cardImg img{
   position: absolute;
+  border-radius: 10px !important;
   left: 15px;
   top: 20px;
   height: 180px;
