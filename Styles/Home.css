@@ -367,6 +367,7 @@ left: 31%;
 
 .ender{
   background-color: #EEEEEE;
+  position: relative;
   height: 300px;
   width: 100%;
 }
@@ -396,7 +397,26 @@ left: 31%;
 }
 
 .bottom-head{
+  position: absolute;
+  left: 20%;
+  top: 45%; 
   display: flex;
   flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-around !important;
 }
 
+.bottom-head li{
+  list-style: none;
+}
+.bottom-head ul{
+  padding-left: 0px;
+}
+.bottom-head a{
+  text-decoration: none;
+  color: black;
+}
+
+.bottom-head-1{
+  margin-left: 100px;
+}
