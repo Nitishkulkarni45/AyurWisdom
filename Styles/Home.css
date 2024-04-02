@@ -365,3 +365,38 @@ left: 31%;
   text-transform: uppercase;
 }
 
+.ender{
+  background-color: #EEEEEE;
+  height: 300px;
+  width: 100%;
+}
+.socialMedia{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.top-head{
+  position: relative;
+  display: flex;
+  /* float: inline-start; */
+  flex-direction: row;
+}
+
+.socialMedia img{
+  height: 50px;
+  width: 50px;
+}
+
+.heading{
+  position: absolute;
+  left: 50px;
+}
+
+.bottom-head{
+  display: flex;
+  flex-direction: row;
+}
+
