@@ -399,9 +399,19 @@ left: 31%;
 }
 
 .heading{
+  display: flex;
+  flex-direction: row;
   position: absolute;
   left: 135px;
   top: 25px;
+}
+.immm img{
+width: 100px;
+height: 100px;
+}
+
+.paraaaa{
+  padding-top: 10px;
 }
 
 .bottom-head{
@@ -426,6 +436,3 @@ left: 31%;
   color: black;
 }
 
-/* .bottom-head-1{
-  margin-left: 170px;
-} */
