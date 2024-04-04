@@ -54,6 +54,10 @@
   list-style: none;
 }
 
+.body a{
+  text-decoration: none;
+  color: black;
+}
 .body-1 {
   /* border: 2px solid red; */
   display: flex;

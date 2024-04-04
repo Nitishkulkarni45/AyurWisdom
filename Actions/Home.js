@@ -1,9 +1,7 @@
-document.getElementsByClassName('user-main').addEventListener('click',function(){
-    var userMainContents = document.getElementsByClassName('user-main-contents');
-    if(userMainContents.style.left === '-200px'){
-        userMainContents.style.left = '0'
+window.onload = function() {
+    if (!sessionStorage.getItem('loggedIn')) {
+        alert("You just logged in!!");
+        sessionStorage.setItem('loggedIn', true);
     }
-    else{
-        userMainContents.style.left = '-200px';
-    }
-});
+}
+
