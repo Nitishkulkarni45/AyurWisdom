@@ -16,7 +16,7 @@
             <img src="/Assets/main-logo.png" class="logo_img">
             <!-- <h1 class="head-head">AyurEd</h1> -->
           </div>
-          <form class="main-in-form">
+          <form class="main-in-form" onsubmit="validateLoginForm(event)">
             <!-- <img class="mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
             <h1 class="h3 mb-3 fw-normal" style="text-align: center;" >Sign in</h1>
         
@@ -24,10 +24,12 @@
             <div class="form-floating" >
               <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
               <label for="floatingInput">Email address</label>
+              <small id="mailError" class="text-danger" style="display: none;">Please enter a mail Id</small>
             </div>
             <div class="form-floating " style="margin-top: 5px !important;">
               <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
               <label for="floatingPassword">Password</label>
+              <small id="passError" class="text-danger" style="display: none;">Please enter passowrd</small>
             </div>
         
             <div class="form-check text-start my-3">
@@ -36,7 +38,7 @@
                 Remember me
               </label>
             </div>
-            <button class="signButton btn btn-primary w-100 py-2"  type="submit" ><a class="homee" href="/Pages/Home.html">Sign in</a></button>
+            <button class="signButton btn btn-primary w-100 py-2"  type="submit" >Sign in</button>
             <p class="mt-5 mb-3 text-body-secondary" style="text-align: center; margin: 2% !important;"><a href="Signup.html" style="text-decoration: none;">Don't have account? Register one.</a></p>
           </form>
         </main>
