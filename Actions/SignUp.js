@@ -75,6 +75,18 @@ function compareRe_EnteredPass() {
   return true;
 }
 
+//Function to toggle password visibility
+// Get the toggle password icon and password input field
+togglePassword.addEventListener("click", function () {
+  // Toggle input type
+  const type = passInput.getAttribute("type") === "password" ? "text" : "password";
+  passInput.setAttribute("type", type);
+
+  // Toggle icon class
+  this.classList.toggle("bi-eye");
+  this.classList.toggle("bi-eye-slash-fill");
+});
+
 const validateSignUpForm = (event) => {
   event.preventDefault();
   const isUserNameValid = validateUsername();

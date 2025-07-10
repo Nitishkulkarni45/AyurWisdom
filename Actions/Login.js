@@ -1,5 +1,7 @@
 const emailInput = document.getElementById("floatingInput");
 const passwordInput = document.getElementById("floatingPassword");
+const togglePassword = document.getElementById("togglePassword");
+
 
 //Function to validate mail Id
 function validatemailId() {
@@ -43,6 +45,18 @@ function validatePass() {
   //Passing true value for now untill connected to DB
   return true;
 }
+
+//Function to toggle password visibility
+// Get the toggle password icon and password input field
+togglePassword.addEventListener("click", function () {
+  // Toggle input type
+  const type = passwordInput.getAttribute("type") === "password" ? "text" : "password";
+  passwordInput.setAttribute("type", type);
+
+  // Toggle icon class
+  this.classList.toggle("bi-eye");
+  this.classList.toggle("bi-eye-slash-fill");
+});
 
 //Function to validate the login form
 const validateLoginForm = (event) => {
