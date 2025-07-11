@@ -1,0 +1,6 @@
+.main_container{
+    border : 2px solid red !important;
+    width: 100vw;
+    height: 700px;
+    margin: 30px 50px;
+}

@@ -11,6 +11,8 @@ function validatemailId() {
     mailError.textContent = "Email cannot be blank.";
     mailError.style.display = "block";
     emailInput.focus();
+    const formContainer = document.getElementsByClassName("main-form");
+    formContainer.style.height = "600px";
     return false;
   }
   //To check if entered mail id is valid or not
@@ -18,6 +20,8 @@ function validatemailId() {
     mailError.textContent = "Please enter a valid Email Id.";
     mailError.style.display = "block";
     emailInput.focus();
+    const formContainer = document.getElementsByClassName("main-form");
+    formContainer.style.height = "600px";
     return false;
   }
   //To display error

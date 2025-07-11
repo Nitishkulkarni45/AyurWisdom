@@ -3,6 +3,10 @@
   width: 50px;
 }
 
+
+.mainnava1{
+  background-color: #EEE7DA !important;
+}
 .search-but-1 {
   position: relative;
   right: 510px;
@@ -11,6 +15,9 @@
 .search-but-2 {
   position: relative;
   right: 510px;
+  border-radius: 18px !important;
+  background-color: #F5F0BB !important;
+  box-shadow: 0px 1px 8px -4px #333;
   /* width: 380px !important; */
 }
 .user {
