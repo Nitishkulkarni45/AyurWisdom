@@ -7,6 +7,67 @@
     <link rel="stylesheet" href="/Styles/profile.css" />
 </head>
 <body>
-    <div class="main_container">100% wide until extra large breakpoint</div>
+    <div class="container"></div>
+    <div
+      class="offcanvas offcanvas-end text-bg-light"
+      tabindex="-1"
+      id="offcanvasSidebar"
+      aria-labelledby="offcanvasSidebarLabel"
+    >
+      <div class="offcanvas-header">
+        <div class="side-heading">
+          <h5 class="offcanvas-title" id="offcanvasSidebarLabel">
+            Nitish Kulkarni
+          </h5>
+        </div>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <hr class="sideHr" />
+      <div class="offcanvas-body">
+        <!-- Your offcanvas menu content here -->
+        <div class="body">
+          <a href="/Pages/Profile.html"
+            ><div class="body-box">
+              <div class="body-1">
+                <i class="bi bi-person-check"></i>|
+                <li>Profile</li>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="body-box">
+              <div class="body-1">
+                <i class="bi bi-pencil-square"></i>|
+                <li>My Blogs</li>
+              </div>
+            </div>
+          </a>
+          
+          <a href="#">
+            <div class="body-box">
+              <div class="body-1">
+                <i class="bi bi-gear"></i>|
+                <li>Settings</li>
+              </div>
+            </div>
+          </a>
+
+          <a href="/Pages/Login.html"
+            ><div class="body-box">
+              <div class="body-1">
+                <i class="bi bi-box-arrow-left"></i>|
+                <li>Logout</li>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="copy">Copy rights reserved. @2024</div>
+    </div>
 </body>
 </html>

@@ -1,6 +1,71 @@
-.main_container{
+.container{
     border : 2px solid red !important;
-    width: 100vw;
+    width: 1045px;
     height: 700px;
-    margin: 30px 50px;
+    position: relative;
+    left: 420px;
+    top: 50px;
+}
+.body-1 {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  padding: 8px 10px;
+  background-color: antiquewhite;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+}
+.body-box li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.body-box {
+  position: relative;
+  padding: 5px;
+  border-radius: 13px;
+  margin: 5px 0px;
+  width: 300px;
+
+}
+
+.body-box a {
+  text-decoration: none;
+  color: black;
+  font-size: 600 !important;
+}
+
+.side-heading {
+  /* border: 2px solid red; */
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0px 0px 5px 0px #333;
+  padding: 4px 15px;
+}
+.user {
+  height: 35px;
+  width: 35px;
+}
+
+.user-main-contents {
+  position: absolute;
+  top: 0;
+  left: -200px; /* Initially hide sidebar off the screen */
+  width: 200px;
+  height: 100%;
+  background-color: #f4f4f4;
+  padding: 20px;
+  transition: left 0.3s ease;
+}
+
+.user-main-contents {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.user-main-contents a {
+  background-color: #ddd;
 }
